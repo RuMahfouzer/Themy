@@ -206,6 +206,8 @@
  <!-- Footer-->
  <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2022</div></footer>
         <!-- Bootstrap core JS-->
+        <?php the_content()?>
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <?php 
         wp_footer( )
@@ -215,7 +217,7 @@
 
 
 
-    
+
     <p>lol</p>
 
     <div class="dropdown">
